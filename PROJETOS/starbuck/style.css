@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+    h1{
+   font-size: 90px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 100px;
+    margin:0;
+    margin-bottom: 30px;
+    }
+    h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 45px;
+    margin: 20px 0 ;
+    }
+
+.button{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px 30px;
+    border-radius:3px ;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+    background-color: blue;
+}
+    header .line{
+        background-color: green;
+        height: 10px;
+
+    }
+   .container {
+       max-width: 1140px;
+       margin: auto;
+   }
+   .header--area{
+       display: flex;
+       margin: auto;
+       height: 100px;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .header--right{
+       display: flex;
+   }
+.header-left img{
+    width: 64px;
+    height: 64px;
+}
+.header--search form{
+    display: flex;
+
+}
+.header--search input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid black;
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+     
+}
+.header--search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header--search button img{
+    width: 18px ;
+    height: 18px;
+    
+}
+.header--menu{
+    margin: 50px;
+
+}
+.header--menu img{
+    width: 24px;
+    height:24px;
+}
+.banner{
+    padding-top: 80px;
+    background-image: url('../starbuck/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 90px;
+
+}
+
+.banner--images img{
+    width: 148px; 
+    height: 148px;
+    border: 6px solid green;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+.banner--images{
+    margin-top: 60px;
+}
+.area1--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+
+}
+.area1--img1{
+    background-color: green;
+    height: 350px;
+    background-image: url('../starbuck/f2.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.area1--img2{
+    background-color: rgb(128, 0, 17);
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url('../starbuck/f1.jpg');
+    background-size: cover;
+background-position: center;
+}
+.area1--content{
+    padding: 80px;
+}
+.area1--quote{
+    margin-bottom: 30px;
+}
+.bar {
+    background-color: rgb(5, 92, 5);
+    height: 22px;
+    width: 168px;
+}
+.area2{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+.area2--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+
+}
+.area2--img1{
+    background-color: green;
+    height: 450px;
+    background-image: url('../starbuck/f4.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.area2--img2{
+    background-color: rgb(128, 0, 17);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url('../starbuck/f3.jpg');
+    background-size: cover;
+background-position: center;
+}
+.area2--content{
+    padding: 150px;
+}
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+ .area3--text{
+        margin-bottom: 50px;
+        line-height: 25px;
+ }
+.area3--content{
+            padding: 200px 80px;
+            background-image: url('../starbuck/bg2.jpg');
+            background-size: cover;
+            background-position: left;
+
+        }
+.area3--img1{
+            background-image: url('../starbuck/f5.jpg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+.area4{
+    display: grid;
+    grid-template-columns: 400px  1fr;
+    background-color: #e8e9ee;
+}
+.area4--content{
+    padding: 150px 80px;
+
+}
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+.area4--img1{
+    background-image: url('../starbuck/bg3.jpg');
+    background-position: left;
+}
+.area5{
+    background-image: url('../starbuck/FB_IMG_1585372025182.jpg');
+background-size: cover;
+background-position: center;
+height: 700px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+@MEDIA (max-width: 1140px);
+{
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@MEDIA (min-width:768px){
+.area1{
+
+}
+}

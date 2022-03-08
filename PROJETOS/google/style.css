@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    background: #202124;
+   display: block;
+}
+header{
+  
+    height: 50px;
+
+
+}
+.cantim{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+    
+}
+.gmail{
+    margin-right: 10px;
+}
+section{
+    height: 70vh;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: column;
+
+}
+#search{
+    height:40px;
+    width: 550px;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color:rgba(0, 0, 0, 0.061);
+    border: 1px solid white;
+    color: white;
+    
+}
+#lupa{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+   
+}
+.button1{
+    width: 120px;
+    margin-right: 20px; 
+    height: 35px;
+    background-color: #303134;;
+    border: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+.button2{
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    background-color: #303134;;
+}
+footer{
+    background-color: #0c1622ef;
+    height: 50px;
+    color: white;
+    display: block;
+    
+}
+.letrinhas p{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}

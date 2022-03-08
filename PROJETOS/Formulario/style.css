@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+    margin: 0;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+}
+.leftside{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.leftside img{
+    max-width:500px;
+    height: auto;
+}
+
+.rightside {
+    width: 400px;
+    background-color: rgba(167, 161, 161, 0.493);
+    padding: 50px;
+}
+
+.rightside label {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.rightside input {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+
+}
